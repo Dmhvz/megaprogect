@@ -1,0 +1,105 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+html {
+	height: 100%;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.header-menu{
+    width: 1152px; /*задаем ширину html-странички*/
+}
+.menu {
+    list-style-type: none; /*убираем маркеры*/
+    float:right; /*прижимаем меню к правой стороне сайта*/
+    margin: 0; /*убираем отступы*/ 
+    padding-left: 0;/*убираем отступы*/
+    margin-top:27px; /*делаем отступ сверху*/
+}
+.menu-element{
+    float:left; /*Размещаем список горизонтально для реализации меню*/
+    margin-right:38px; /*Добавляем отступ у пунктов меню*/
+}
+.menu-link{
+    text-decoration: none; /*убираем подчеркивание текста ссылок*/
+    font-family: heebo; /*меняем шрифт*/
+    color:#000000; /*меняем цвет ссылок*/
+}
+.titles-main{
+    position:absolute;
+    width: 506px;
+    height: 105px;
+    left: 148px;
+    top: 228px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+    color: #21243D;
+}
+.titles-label{
+    position: absolute;
+    width: 497px;
+    height: 66px;
+    left: 148px;
+    top: 373px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.titles-buttom{
+    position: absolute;
+    width: 167px;
+    height: 21px;
+    left: 168px;
+    top: 486px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    background: #FF6464;
+    background-position: center;
+    border-radius: 2px;
+    color: #FFFFFF;
+}
