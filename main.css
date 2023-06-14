@@ -43,17 +43,15 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-.header-menu{
+.header{
     width: 1152px; /*задаем ширину html-странички*/
 }
-.menu {
+.header-menu {
     list-style-type: none; /*убираем маркеры*/
     float:right; /*прижимаем меню к правой стороне сайта*/
-    margin: 0; /*убираем отступы*/ 
-    padding-left: 0;/*убираем отступы*/
     margin-top:27px; /*делаем отступ сверху*/
 }
-.menu-element{
+.header-menu__element{
     float:left; /*Размещаем список горизонтально для реализации меню*/
     margin-right:38px; /*Добавляем отступ у пунктов меню*/
 }
@@ -62,7 +60,7 @@ table {
     font-family: heebo; /*меняем шрифт*/
     color:#000000; /*меняем цвет ссылок*/
 }
-.titles-main{
+.header-titles{
     position:absolute;
     width: 506px;
     height: 105px;
@@ -75,7 +73,7 @@ table {
     line-height: 60px;
     color: #21243D;
 }
-.titles-label{
+.header-titles__label{
     position: absolute;
     width: 497px;
     height: 66px;
@@ -87,19 +85,29 @@ table {
     font-size: 16px;
     line-height: 24px;
 }
-.titles-buttom{
+.header-link{
     position: absolute;
-    width: 167px;
-    height: 21px;
-    left: 168px;
-    top: 486px;
+    top: 477px;
+    left: 148px;
+    width: 208px;
+    height: 47px;
+    background: #FF6464;
+    text-align: center;
+}
+.header-link a{
+    display: block;
     font-family: 'Heebo';
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
-    line-height: 29px;
-    background: #FF6464;
+    line-height: 47px;
+    text-decoration: none;
     background-position: center;
     border-radius: 2px;
     color: #FFFFFF;
+}
+.header-avatar{
+    position: absolute;
+    top: 210px;
+    left: 780px;
 }
