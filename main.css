@@ -111,3 +111,44 @@ table {
     top: 210px;
     left: 780px;
 }
+.posts{
+    position: absolute;
+    height: 396px;
+    width: 1152px;
+    border-radius: 0px;
+    background-color: #EDF7FA;
+    margin-top: 595px;
+}
+.titles-blok{
+    position: absolute;
+    width: 129px;
+    height: 60px;
+    margin-left: 148px;
+    margin-top: 7px;
+    text-align: center;
+    line-height: 60px;
+}
+.titles-text{
+    font-weight: 400;
+    font-size: 22px;
+    font-family: heebo;
+    text-decoration: none;
+    color: #000;
+}
+.posts__all{
+    position: absolute;
+    margin-left: 796px;
+    margin-top: 27px;
+    font-family:heebo;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23.5px;
+    text-decoration: none;
+    color: #000;
+}
+.massage{
+    /* display: flex; */
+    width: 418px;
+    height: 295;
+
+}
