@@ -190,3 +190,13 @@ table {
     margin-left: 23px;
     align-items: baseline;
 }
+.massage__content{
+    width: 368px;
+    height: 117px;
+    color: var(--dark-color, #21243D);
+    font-size: 16px;
+    font-family: Heebo;
+    margin-top: 11px;
+    margin-left: 23px;
+
+}
