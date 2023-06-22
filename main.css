@@ -11,7 +11,7 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
+	margin: 0; 
 	padding: 0;
 	border: 0;
 	font-size: 100%; 
@@ -110,4 +110,83 @@ table {
     position: absolute;
     top: 210px;
     left: 780px;
+}
+.posts{
+    position: absolute;
+    height: 396px;
+    width: 1152px;
+    border-radius: 0px;
+    background-color: #EDF7FA;
+    margin-top: 595px;
+}
+.titles-blok{
+    position: absolute;
+    width: 129px;
+    height: 60px;
+    margin-left: 148px;
+    margin-top: 7px;
+    text-align: center;
+    line-height: 60px;
+}
+.titles-text{
+    font-weight: 400;
+    font-size: 22px;
+    font-family: heebo;
+    text-decoration: none;
+    color: #000;
+}
+.posts__all{
+    position: absolute;
+    margin-left: 796px;
+    margin-top: 27px;
+    font-family:heebo;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23.5px;
+    text-decoration: none;
+    color: #000;
+}
+.massage{
+    margin-left: 148px; 
+    margin-top: 65px;
+    float:left;
+    border-radius: 4px;
+    width: 418px;
+    height: 295px;
+    background-color: #FFFFFF;
+}
+.massage__titles{
+    display: block;
+    margin-top:24px;
+    margin-left: 23px;
+    width: 374px;
+    height: 85px;
+    font-family: heebo;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 44px;
+    color: Dark Color;
+}
+.massage__data{
+    width: 148px;
+    height: 34px;
+    color: var(--dark-color, #21243D);
+    font-size: 18px;
+    font-family: Heebo;
+}
+.massage__place{
+    width: 160px;
+    height: 34px;
+    padding-left: 44px;
+    color: var(--dark-color, #21243D);
+    font-size: 18px;
+    font-family: Heebo;
+}
+.cont{
+    display: inline-flex; 
+    width: 374px;
+    height: 34px;
+    margin-top: 17px;
+    margin-left: 23px;
+    align-items: baseline;
 }
