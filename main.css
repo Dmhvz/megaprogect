@@ -113,20 +113,23 @@ table {
 }
 .posts{
     position: absolute;
+    display: flex;
     height: 396px;
-    width: 1152px;
+    width: 872px;
+    margin-top: 595px;
+    margin-left: 148px;
     border-radius: 0px;
     background-color: #EDF7FA;
-    margin-top: 595px;
+    justify-content: space-between;
 }
 .titles-blok{
     position: absolute;
-    width: 129px;
+    display: flex;
+    width: 872px;
     height: 60px;
-    margin-left: 148px;
     margin-top: 7px;
-    text-align: center;
     line-height: 60px;
+    justify-content: space-between;
 }
 .titles-text{
     font-weight: 400;
@@ -136,18 +139,14 @@ table {
     color: #000;
 }
 .posts__all{
-    position: absolute;
-    margin-left: 796px;
-    margin-top: 27px;
     font-family:heebo;
     font-weight: 400;
     font-size: 16px;
-    line-height: 23.5px;
     text-decoration: none;
     color: #000;
 }
 .massage{
-    margin-left: 148px; 
+    /* margin-left: 148px;  */
     margin-top: 65px;
     float:left;
     border-radius: 4px;
