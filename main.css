@@ -115,17 +115,23 @@ table {
     position: absolute;
     display: flex;
     height: 396px;
-    width: 872px;
+    width: 1152px;
     margin-top: 595px;
-    margin-left: 148px;
     border-radius: 0px;
     background-color: #EDF7FA;
     justify-content: space-between;
 }
+.massage-block{
+    position: absolute;
+    display: flex;
+    width: 855px;
+    margin-left: 148px;
+    justify-content: space-between
+}
 .titles-blok{
     position: absolute;
     display: flex;
-    width: 872px;
+    width: 855px;
     height: 60px;
     margin-top: 7px;
     line-height: 60px;
@@ -146,7 +152,6 @@ table {
     color: #000;
 }
 .massage{
-    /* margin-left: 148px;  */
     margin-top: 65px;
     float:left;
     border-radius: 4px;
