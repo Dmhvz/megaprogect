@@ -45,6 +45,7 @@ table {
 }
 .header{
     width: 1152px; /*задаем ширину html-странички*/
+    height: 2041px;
 }
 .header-menu {
     list-style-type: none; /*убираем маркеры*/
@@ -174,7 +175,7 @@ table {
 .massage__data{
     width: 148px;
     height: 34px;
-    color: var(--dark-color, #21243D);
+    color: #21243D;
     font-size: 18px;
     font-family: Heebo;
 }
@@ -182,7 +183,7 @@ table {
     width: 160px;
     height: 34px;
     padding-left: 44px;
-    color: var(--dark-color, #21243D);
+    color:#21243D;
     font-size: 18px;
     font-family: Heebo;
 }
@@ -197,9 +198,23 @@ table {
 .massage__content{
     width: 368px;
     height: 117px;
-    color: var(--dark-color, #21243D);
+    color:#21243D;
     font-size: 16px;
     font-family: Heebo;
     margin-top: 11px;
     margin-left: 23px;
+}
+.titles_works{
+    display: inline-block;
+    width: 160px;
+    height: 60px;
+    margin-top: 1006px;
+    margin-left: 148px;
+    font-family: Heebo;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px; 
+    text-align: center;
+    color: dark color;
 }
