@@ -204,12 +204,16 @@ table {
     margin-top: 11px;
     margin-left: 23px;
 }
+.works{
+    position: relative;
+    top: 991px;
+}
 .titles_works{
-    display: inline-block;
+    position: absolute;
     width: 160px;
     height: 60px;
-    margin-top: 1006px;
-    margin-left: 148px;
+    top: 15px;
+    left: 148px;
     font-family: Heebo;
     font-size: 22px;
     font-style: normal;
@@ -217,4 +221,77 @@ table {
     line-height: 60px; 
     text-align: center;
     color: dark color;
+}
+.img_works{
+    position: absolute;
+    width: 246px;
+    height: 180px;
+    top: 97px;
+    left: 146px;
+}
+.name_work{
+    position: absolute;
+    top: 86px;
+    left: 410px;
+    width: 305px;
+    height: 44px;
+    color: var(--dark-color, #21243D);
+    font-family: Heebo;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.img_age{
+    position: absolute;
+    width: 62px;
+    height: 25px;
+    top: 150px;
+    left: 410px;
+}
+.age_work{
+    position: absolute;
+    top: 134px;
+    left: 420px;
+    width: 42px;
+    height: 60px;
+    color: #FFF;
+    font-family: Heebo;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 60px;
+}
+.object_work{
+    position: absolute;
+    top: 146px;
+    left: 498px;
+    width: 374px;
+    height: 34px;
+    flex-shrink: 0;
+    color: var(--light, #8695A4);
+    font-family: Heebo;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.content_work{
+    position: absolute;
+    top: 197px;
+    left: 410px;
+    width: 594px;
+    height: 93px;
+    flex-shrink: 0;
+    color: var(--dark-color, #21243D);
+    font-family: Heebo;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.vector_work{
+    position: absolute;
+    top: 292px;
+    left: 146px;
 }
